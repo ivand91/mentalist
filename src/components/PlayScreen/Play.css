@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300");
+@import url("https://fonts.googleapis.com/css?family=Oxygen");
+
+.number-series {
+    width: 700px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.number-series h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 35px;
+    color: #E3AE57;
+}
+
+p.number {
+    display: inline-block;
+    width: 70px;
+    color: white;
+    font-size: 23px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    text-align: center;
+}
+
+.btn-yes {
+    width: 200px;
+    float: right;
+    background-color: #DC3D24;
+    margin-top: 25px;
+}
+
+.btn-no {
+    width: 200px;
+    float: left;
+    background-color: white;
+    color: #DC3D24;
+    margin-top: 25px;
+}

@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css?family=Vast+Shadow");
+@import url("https://fonts.googleapis.com/css?family=Roboto:300");
+
+
+.end-screen h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 45px;
+    color: #E3AE57;
+}
+
+.end-screen p {
+    margin: 0;
+    font-family: 'Vast Shadow', cursive;
+    font-size: 200px;
+    color: #DC3D24;
+}

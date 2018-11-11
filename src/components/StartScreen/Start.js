@@ -13,7 +13,7 @@ const start = ( props ) => {
             <p>You will see different series of integers. If your number is in a row of numbers press 
                 button YES, otherwise press button NO.</p>
             <p>Please, be honest.</p>
-            <button className="btn-start">START THE MENTALIST</button>
+            <button onClick={props.clicked} className="btn btn-start">START THE MENTALIST</button>
             
         </section>
     )
