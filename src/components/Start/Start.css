@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300");
+@import url("https://fonts.googleapis.com/css?family=Roboto:300");
+@import url("https://fonts.googleapis.com/css?family=Oxygen");
+
+.start-screen {
+    color: white;
+}
+
+.start-screen h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 45px;
+    color: #E3AE57;
+}
+
+.start-screen p {
+    width: 500px;
+    margin: 8px auto 15px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+}
+
+.btn-start {
+    width: 500px;
+    background-color: #DC3D24;
+    margin-top: 50px;
+    padding: 15px 20px;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 27px;
+    letter-spacing: 6px;
+    color: white;
+    border: none;
+    border-radius: 13px;
+}
+
+.btn-start:active {
+    position: relative;
+    top: 1px;
+}
+
+
+@media only screen and (max-width: 420px) {
+    
+    .start-screen p {
+        width: 100%;
+        text-align: justify;
+        line-height: 1.4;
+        margin: 8px 0px 15px 0px; 
+    }
+    
+    .btn-start {
+        width: 100%;
+        margin-top: 30px;
+        padding: 15px 20px;
+        font-size: 27px;
+        letter-spacing: 6px;
+    }
+
+}
+
+@media only screen and (min-width: 421px) and (max-width: 560px) {
+    
+    .start-screen p {
+        width: 100%; 
+    }
+
+    .btn-start {
+        width: 100%;
+        margin-top: 30px;
+        padding: 15px 20px;
+        font-size: 27px;
+        letter-spacing: 6px;
+    }
+
+}
