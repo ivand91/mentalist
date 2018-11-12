@@ -15,3 +15,25 @@
     font-size: 200px;
     color: #DC3D24;
 }
+
+@media only screen and (max-width: 300px) {
+    
+    .end-screen h2 {
+        font-size: 27px;
+    }
+    
+    .end-screen p {
+        font-size: 135px;
+    }
+
+}
+
+@media only screen and (min-width: 301px) and (max-width: 470px) {
+    .end-screen h2 {
+        font-size: 27px;
+    }
+
+    .end-screen p {
+        font-size: 160px;
+    }
+}

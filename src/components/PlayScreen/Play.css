@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Oxygen");
 
 .number-series {
+    box-sizing: border-box;
     width: 700px;
     margin: 0 auto;
     text-align: left;
@@ -24,17 +25,79 @@ p.number {
     text-align: center;
 }
 
+.btn {
+    margin-bottom: 25px;
+}
+
 .btn-yes {
-    width: 200px;
+    width: 250px;
     float: right;
     background-color: #DC3D24;
     margin-top: 25px;
 }
 
 .btn-no {
-    width: 200px;
+    width: 250px;
     float: left;
     background-color: white;
     color: #DC3D24;
     margin-top: 25px;
+}
+
+@media only screen and (max-width: 500px) {
+    body {
+        margin: 0 5%;
+    }
+
+    .number-series {
+        width: 100%;
+    }
+
+    .number-series h1 {
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    p.number {
+        width: 10%;
+        font-size: 15px;
+    }
+
+    .btn {
+        padding: 6px 8px;
+        font-size: 17px;
+    }
+    
+    .btn-yes, .btn-no {
+        width: 40%;
+    }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 799px) {
+    body {
+        margin: 0 10%;
+    }
+
+    .number-series {
+        width: 100%;
+    }
+
+    .number-series h1 {
+        font-size: 27px;
+        text-align: center;
+    }
+    
+    p.number {
+        width: 10%;
+        font-size: 19px;
+    }
+
+    .btn {
+        padding: 9px 12px;
+        font-size: 20px;
+    }
+    
+    .btn-yes, .btn-no {
+        width: 35%;
+    }
 }
