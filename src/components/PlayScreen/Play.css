@@ -34,6 +34,7 @@ p.number {
     float: right;
     background-color: #DC3D24;
     margin-top: 25px;
+    color: white;
 }
 
 .btn-no {

@@ -77,13 +77,21 @@ class Play extends Component {
         );
     }
 
+    playAgain = () => {
+        this.setState({
+            index : 0,
+            isEnd : false,
+            number : 0
+        });
+    }
+
 
 	render() {
 
         let data;
 
         if(this.state.isEnd) {
-            data = <EndScreen number={this.state.number}/>;
+            data = <EndScreen number={this.state.number} playAgain={this.playAgain}/>;
         } else {
             data = <this.showNumbers />;
         }

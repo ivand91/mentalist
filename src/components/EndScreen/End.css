@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Vast+Shadow");
 @import url("https://fonts.googleapis.com/css?family=Roboto:300");
+@import url("https://fonts.googleapis.com/css?family=Oxygen");
 
 
 .end-screen h2 {
@@ -16,6 +17,18 @@
     color: #DC3D24;
 }
 
+.btn-again {
+    margin: 25px auto;
+    background-color: #DC3D24;
+    padding: 15px 20px;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 27px;
+    letter-spacing: 6px;
+    color: white;
+    border: none;
+    border-radius: 13px;
+}
+
 @media only screen and (max-width: 300px) {
     
     .end-screen h2 {
@@ -24,6 +37,10 @@
     
     .end-screen p {
         font-size: 135px;
+    }
+
+    .btn-again {
+        font-size: 20px;
     }
 
 }

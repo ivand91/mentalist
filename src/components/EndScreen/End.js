@@ -12,6 +12,7 @@ const end = ( props ) => {
 
             <p>{props.number}</p>
             
+            <button onClick={props.playAgain} className="btn-again">PLAY AGAIN?</button>
         </section>
     )
 };
